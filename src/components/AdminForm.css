@@ -1,0 +1,202 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#admin{
+
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.2);
+   
+}
+.admincontent{
+    display: flex;
+    width: 100%;
+    height: 552px;
+}
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading span{
+   color: orangered;
+
+}
+.admincontent .left-container{
+    background-color: #fff;
+   margin-top: 3px;
+ padding-top: 100px;
+    width: 50%;
+    height: 552px;
+    text-align: center;
+}
+.left-container .label {
+    font-size: 16px;
+    color: #333;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 700;
+   font-size: large;
+   
+   
+}
+.input-field1{
+    border: 1px solid rgb(128, 124, 121);
+   padding: 5px;
+   margin-left: 20px;
+   margin-bottom: 15px;
+   width: 300px;
+   
+
+}
+.input-field2{
+    border: 1px solid rgb(128, 124, 121);
+   padding: 5px;
+   margin-left: 55px;
+   margin-bottom: 15px;
+   width: 300px;
+
+}
+.input-field3{
+    border: 1px solid rgb(128, 124, 121);
+   padding: 5px;
+   margin-left: 110px;
+   margin-bottom: 15px;
+   width: 300px;
+
+}
+.input-field4{
+    border: 1px solid rgb(128, 124, 121);
+   padding: 5px;
+   margin-left: 35px;
+   margin-bottom: 15px;
+   width: 300px;
+}
+
+.input-field5{
+    border: 1px solid rgb(128, 124, 121);
+   padding: 5px;
+   margin-left: 90px;
+   margin-bottom: 30px;
+   width: 300px;
+}
+.admincontent .right-container{
+    width: 50%;
+    height: 552px;
+   background-color: #fffbf1;
+   margin-top: 3px;
+}
+.admincontent .submit-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(233, 36, 30);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 100px;
+    width: 200px;
+}
+.admincontent .submit-button2{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: rgb(240, 106, 17);
+    border: none;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 200px;
+}
+.submit-button:hover {
+    background-color: rgb(255, 115, 0);
+}
+.right-container .added-hotels {
+    font-size: 1.9em;
+    color: rgb(83, 81, 78);
+    margin-bottom: 20px;
+   
+}
+.added-hotels span{
+    color: rgb(255, 115, 0);
+}
+.right-container h2{
+   padding-top: 30px;
+   text-align: center;
+}
+.hotel-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 140, 0);
+    border-radius: 5px;
+    background-color: #fff;
+}
+.hotel-place{
+    font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px; 
+    color: rgb(192, 34, 13);
+}
+
+.hotel-name {
+    font-size: 1.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000; 
+    margin-left: 40px; 
+}
+
+.hotel-image {
+    width: 100px; 
+    height: 100px;
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-left: 40px; 
+    margin-right: 10px; 
+}
+
+ .delete-button {
+    padding: 10px 15px;
+    font-size: 0.9em;
+    color: #fff;
+    border: none;
+    margin-left: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.edit-button{
+    padding: 10px 15px;
+    font-size: 0.9em;
+    color: #fff;
+    border: none;
+    margin-left: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.edit-button {
+    background-color: rgb(255, 140, 0);
+  
+}
+
+.edit-button:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+.delete-button {
+    background-color: rgb(255, 70, 0);
+}
+
+.delete-button:hover {
+    background-color: rgb(255, 50, 0);
+}

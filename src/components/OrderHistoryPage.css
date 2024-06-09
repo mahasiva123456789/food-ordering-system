@@ -1,0 +1,98 @@
+.order-history-container {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  height: 700px;
+}
+
+.history-head {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.history-head h1 {
+  font-size: 2em;
+}
+
+.history-head span {
+  color: #ff8800;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8efde;
+  border: 1px solid rgb(245, 76, 14);
+  padding-left: 200px;
+  padding-right: 100px;
+  width: 1000px;
+  margin-left: 150px;
+}
+
+.history-left {
+  width: 45%;
+}
+
+.history-left h2 {
+  margin-bottom: 10px;
+}
+
+.history-left p {
+  margin: 5px 0;
+}
+
+.history-right {
+  width: 45%;
+}
+
+.history-right h3 {
+  margin-bottom: 10px;
+}
+
+.items-list {
+  list-style: none;
+  padding: 0;
+}
+
+.items-list li {
+  margin-bottom: 10px;
+}
+
+.items-list li span {
+  font-weight: bold;
+}
+
+.cancel-order-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cancel-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cancel-message {
+  margin-top: 10px;
+  color: red;
+}
+
+.cancel-note {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: #555;
+}

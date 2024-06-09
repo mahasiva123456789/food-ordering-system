@@ -1,0 +1,107 @@
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header .nav-container a {
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: #ff7f50;
+}
+
+.nav-item-left {
+  margin-right: auto;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ff7f50;
+  transition: width 0.3s;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-container:hover .profile-dropdown {
+  display: flex;
+}
+
+.profile-dropdown .nav-item {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #ff7f50;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin: 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e06b3c;
+}
+
+.profile-dropdown .username {
+  margin: 5px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  cursor: default;
+}
+

@@ -1,0 +1,38 @@
+/* TransactionPage.css */
+.transaction-page-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+  }
+  
+  .transaction-page {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .transaction-details p {
+    margin: 10px 0;
+  }
+  .transbtn {
+    background-color: #f89008;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+  }
+    
